@@ -13,7 +13,7 @@ export default function RouteApp() {
 
 
                 <Route path='/' element={<Home/>} ></Route>
-                {/* 这个咋不起作用了？、 */}
+                {/* 这个咋不起作用了？、router 6 更改写法。。。 */}
                 <Route path='/me' element={<Me/>} ></Route>
                 <Route path='/home' element={<Home/>}></Route>
                 
